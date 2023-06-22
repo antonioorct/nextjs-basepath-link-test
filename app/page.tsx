@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
-      <button onClick={test}></button>
+      <button onClick={test}>Test</button>
       <Link href="/test/[id]?id=1" as="/test/1">
         First
       </Link>
