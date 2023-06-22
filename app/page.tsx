@@ -7,6 +7,12 @@ export default function Home() {
         First
       </Link>
       <Link href="/test/2">Seconds</Link>
+      <Link href="/test/[id]" as="/test/3" passHref>
+        <a>Third</a>
+      </Link>
+      <Link href="/test/[id]" as="/test/4">
+        Fourth
+      </Link>
     </>
   );
 }
